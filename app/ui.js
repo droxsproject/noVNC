@@ -508,7 +508,6 @@ var UI;
             }
 
             UI.enableDisableViewClip();
-            document.getElementById('noVNC_setting_resize').disabled = UI.connected;
             document.getElementById('noVNC_setting_shared').disabled = UI.connected;
             document.getElementById('noVNC_setting_view_only').disabled = UI.connected;
             document.getElementById('noVNC_setting_host').disabled = UI.connected;
